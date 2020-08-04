@@ -5,8 +5,6 @@
 3. Motivation
 4. Installation
 ## Demo
-Link: http://192.168.0.104:8501
-
 ![Screenshot (50)](https://user-images.githubusercontent.com/48888895/89260186-672a3f00-d649-11ea-9fe1-b998c805e6a1.png)
 ![Screenshot (51)](https://user-images.githubusercontent.com/48888895/89260248-8923c180-d649-11ea-9d3c-8a87f14c741b.png)
 ![Screenshot (52)](https://user-images.githubusercontent.com/48888895/89260309-a48ecc80-d649-11ea-866b-303134ce20df.png)
@@ -14,8 +12,12 @@ Link: http://192.168.0.104:8501
 ## Overview
 
 ## Motivation
-
+When I learnt about the streamlit library and came to know about it's wonderful features, I wanted to make an application using it.This was my first application using streamlit.
 ## Installation
 The Code is written in Python 3.6.10. If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip. To install the required packages and libraries, run this command in the project directory after cloning the repository:
 
 pip install -r requirements.txt
+
+After installing all the required libraries run the following command in your command prompt in the project directory:
+
+streamlit run app.py
